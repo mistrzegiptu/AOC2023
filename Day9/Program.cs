@@ -70,7 +70,6 @@
                 index--;
                 sequences[index].Insert(0, sequences[index][0] - sequences[index + 1][0]);
             }
-            //Console.WriteLine(sequences[0][0]);
             sum += sequences[0][0];
         }
 
